@@ -32,7 +32,7 @@ class MemberServiceTest {
         Member member = new Member();
         member.setName("hello");
 
-        // when
+        // when 
         Long saveId = memberService.join(member);
 
         // then
